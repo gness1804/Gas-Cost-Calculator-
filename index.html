@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width"/>
+	<title>Gas Cost Estimator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<div id="main">
+		<h1>Gas Cost Estimator</h1>
+		<p>Use this tool to estimate the gas cost of a trip.</p>
+		<iframe src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyA6nCheSgKahWZb6qKWr7_Iuo8fy3FTOxA&origin=New+York,NY&destination=Chicago,IL&mode=driving"></iframe><br><br><br>
+		<label>Total Mileage</label> &nbsp; <input type="number" id="mileage"></input>
+		<p><em>**Note: You can use map above to calculate mileage.</em></p><br><br>
+		<label>Approx. <a href="https://www.fueleconomy.gov/feg/findacar.shtml" target="blank">MPG of your vehicle</a></label> &nbsp; <input type="number" value="15" id="mpg"></input><br><br>
+		<label>Approx. cost of gas (per gallon)</label> &nbsp; $<input type="number" value=3.00 id="costgas"></input><br><br><br>
+		<input type="submit" onclick="calcCost()"></input><br><br>
+		<p id="test"></p>
+	</div>
+</body>
+</html>

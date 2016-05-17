@@ -1,0 +1,40 @@
+html {
+	font-family: Tahoma, sans-serif;
+	background-image: url(https://lovelace-media.imgix.net/uploads/561/3a87ff80-c489-0132-46b2-0e9062a7590a.jpg?);
+	
+}
+#test {
+	font-weight: bold;
+}
+#main{
+	text-align: center;
+	border: 2px solid black;
+	width: 600px;
+	position: absolute;
+	left: 400px;
+	background-color: #e0e0eb;
+}
+a:link {
+	color: blue;
+	text-decoration: none;
+}
+a:visited {
+	color: #660000;
+}
+a:hover{
+	color: red;
+}
+input:hover {
+	background-color: #cce6ff;
+}
+@media (max-width: 450px){ /*Smartphone screens */
+	html{
+		background-image: none;
+		background-color: #99c2ff;
+	}
+	#main{
+	width: 400px;
+	position: absolute;
+	left: 5px;
+	background-color: #e0e0eb;
+}
